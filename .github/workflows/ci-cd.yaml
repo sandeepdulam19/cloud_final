@@ -7,7 +7,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  ECR_REPO: dulam-api
+  ECR_REPO: dulam-sandeep-final-api
 
 jobs:
   build-deploy:
