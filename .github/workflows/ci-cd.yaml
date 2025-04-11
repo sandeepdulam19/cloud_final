@@ -37,6 +37,6 @@ jobs:
       - name: Update ECS Service
         run: |
           aws ecs update-service \
-            --cluster dulam-cluster \
-            --service dulam-service \
+            --cluster dulam-sandeep-cluster \
+            --service dulam-sandeep-service \
             --force-new-deployment
